@@ -57,9 +57,7 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  transition:
-    color 0.15s ease,
-    border-color 0.15s ease;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover,
@@ -89,4 +87,41 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.mainNav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.mainNav li {
+  list-style: none;
+  font-weight: bold;
+  margin: 0 25px;
+  cursor: pointer;
+}
+
+.mainNav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.homeImgDiv {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.homeImgDiv img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.subHeading {
+  font-size: 35px;
 }
